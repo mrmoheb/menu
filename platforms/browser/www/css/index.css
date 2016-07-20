@@ -4,23 +4,28 @@ html,body{
     padding: 0px;
     overflow-x: hidden;
 	width: 100%;
-	background-color:#cccccc;
+	/*background-color:#cccccc;
+	background-color:black;*/
+	background-image: url("../img/bg.jpg");
+	background-size:cover;
 }
 .logo-board{
-	background-image: url("wood.jpg");
+	background-image: url("../img/wood.jpg");
 	min-height:110px;
 	background-size:cover;
 	border-bottom-left-radius: 2em;
 	border-bottom-right-radius: 2em;
 	text-align:center;
-	
+	box-shadow: 10px 10px 5px rgba(70,64,66,0.5);
 }
 .language-board{
-	background-image: url("wood.jpg");
-	min-height:70px;
+	background-image: url("../img/wood.jpg");
+	min-height:60px;
 	background-size:cover;
 	border-bottom-left-radius: 1em;
-	border-bottom-right-radius: 1em;	
+	border-bottom-right-radius: 1em;
+	box-shadow: 10px 10px 5px rgba(70,64,66,0.5);
+    	
 }
 
 .brand-name{
@@ -33,12 +38,14 @@ html,body{
 	margin-top:20px;
 	text-align:left;
 	padding:10px;
-	background-image: url("wood.jpg");
+	background-image: url("../img/wood.jpg");
 	background-size:cover;
 	border-bottom-left-radius: 2em;
 	border-top-left-radius: 2em;
 	border-bottom-right-radius: 2em;
 	border-top-right-radius: 2em;
+	box-shadow: 10px 10px 5px rgba(70,64,66,0.5);
+
 }
 .margin-left-right{
 	margin-left:5px;
@@ -51,4 +58,23 @@ html,body{
 .category-label{
 	font-size:large;
 	margin-left:10px;
+}
+.price-label{
+	font-size:large;
+	margin-left:5px;
+	text-align:center;
+}
+.menu-item{
+	text-align:left;
+	padding:5px;
+}
+.menu-item-video-thumbinal{
+	width:100%;
+}
+.item-description{
+	font-size:small;
+}
+.hide{
+	display:none;
+	transition:0.8s;
 }
