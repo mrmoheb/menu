@@ -1,0 +1,54 @@
+html,body{
+	height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+	width: 100%;
+	background-color:#cccccc;
+}
+.logo-board{
+	background-image: url("wood.jpg");
+	min-height:110px;
+	background-size:cover;
+	border-bottom-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+	text-align:center;
+	
+}
+.language-board{
+	background-image: url("wood.jpg");
+	min-height:70px;
+	background-size:cover;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;	
+}
+
+.brand-name{
+	margin-top: 25px;
+	color: white;
+	font-weight: bold;
+	font-size: 150%;
+}
+.menu-category{
+	margin-top:20px;
+	text-align:left;
+	padding:10px;
+	background-image: url("wood.jpg");
+	background-size:cover;
+	border-bottom-left-radius: 2em;
+	border-top-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+	border-top-right-radius: 2em;
+}
+.margin-left-right{
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.category-icon{
+	font-size:250%;
+}
+.category-label{
+	font-size:large;
+	margin-left:10px;
+}
