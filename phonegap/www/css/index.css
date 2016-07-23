@@ -74,7 +74,4 @@ html,body{
 .item-description{
 	font-size:small;
 }
-.hide{
-	display:none;
-	transition:0.8s;
-}
+
