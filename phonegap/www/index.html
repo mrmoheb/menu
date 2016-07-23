@@ -2,32 +2,30 @@
 	<head>
 		<link rel="stylesheet" href="css/splash.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<script src="js/splash.js"></script>
 		
 	</head>
-	<body>
+	<body onload="getbranches()">
 	<!--Div for splash screen-->
 		<div class="row">
 			<div class="col-xs-2">
 			</div>
 			<div class="col-xs-8 splash-screen">
+				<form action="menu.html" method="get">
 				<p style="color:white;" >Logo</p>
-				<div class="dropdown"><select id="branches" name="branchdropdown" class="form-control"  >
-					<option value="1">Emirates</option>
-					<option value="2">France</option>
-					<option value="3">Egypt</option>
-					<option value="4">Hungary</option>
+				<input type="hidden" value="" id="branchid" name="branchid">
+				<div class="dropdown">
+				<select id="branches" class="form-control" onchange="gettables()" >
+					<option>Choose Branch</option>
 				</select>
 				</div>
 				<div class="dropdown">
-				<select id="tables" name="tabledropdown" class="form-control" >
-					<option value="1">1</option>
-					<option value="2">2</option>
-					<option value="3">3</option>
-					<option value="4">4</option>
+				<select id="tables" name="tables" class="form-control" >
+				<option>Choose Table Number</option>
 				</select>
 				</div>
-				<div class="button"><button type="button" class="btn btn-primary btn-md" onclick="location.href = 'menu.html';" >Next</button></div>
-					
+				<div class="button"><button type="submit" class="btn btn-primary btn-md">Next</button></div>
+				</form>
 			</div>
 			<div class="col-xs-2">
 			</div>
